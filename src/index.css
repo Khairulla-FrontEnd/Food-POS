@@ -1,0 +1,292 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #393c49;
+  font-family: "Barlow", sans-serif;
+  overflow-x: hidden;
+}
+.order__main::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1480px) {
+  .order__card {
+    gap: 10px;
+  }
+  .header__order {
+    gap: 250px;
+  }
+  .order__card2 {
+    width: 350px;
+  }
+  .order__footer {
+    gap: 300px;
+  }
+  .main__content {
+    margin-right: 400px;
+  }
+}
+@media (max-width: 1337px) {
+  .main__content {
+    max-width: 600px;
+    overflow: hidden;
+  }
+  .menu {
+    gap: 40px;
+    overflow-x: scroll;
+  }
+}
+@media (max-width: 1162px) {
+  .order__card {
+    gap: 20px;
+  }
+  .header__order {
+    gap: 180px;
+  }
+  .order__card2 {
+    width: 280px;
+  }
+  .order__footer {
+    gap: 230px;
+  }
+  .main__content {
+    max-width: 500px;
+    margin-right: 320px;
+  }
+}
+@media (max-width: 995px) {
+  .sidebar {
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    z-index: 100;
+  }
+  .main__content {
+    padding-left:10px;
+    margin-right: 450px;
+    margin-bottom:120px;
+  }
+  .food__home {
+    flex-direction: column-reverse;
+  }
+  .food__icon {
+    font-size: 20px;
+  }
+  .icon__container{
+    width:60px;
+    border-radius:10px;
+  }
+  .order {
+    height: 85vh;
+  }
+}
+@media (max-width: 894px) {
+  .main__title {
+    font-size: 20px;
+  }
+  .date {
+    font-size: 12px;
+  }
+  .main__input {
+    padding: 4px;
+    font-size: 14px;
+  }
+  .menu {
+    font-size: 12px;
+  }
+  .dish__title {
+    font-size: 16px;
+  }
+  .dinein {
+    font-size: 12px;
+  }
+  .food__card__img {
+    width: 80px;
+    height: 80px;
+  }
+  .food__card {
+    padding: 0px;
+  }
+}
+@media (max-width: 830px) {
+  .food__container {
+    justify-content: center;
+  }
+  .main__header {
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+  }
+  .order__title {
+    font-size: 16px;
+  }
+  .order__btn {
+    padding: 2px;
+    font-size: 14px;
+  }
+  .order__card__img {
+    width: 30px;
+    height: 30px;
+  }
+  .order__card__title {
+    font-size: 14px;
+  }
+  .ordered {
+    padding-block: 2px;
+    padding-inline: 4px;
+  }
+  .order__input {
+    padding: 2px;
+    font-size: 12px;
+  }
+  .order__delete {
+    padding-block: 2px;
+    padding-inline: 4px;
+    font-size: 12px;
+  }
+  .order__title {
+    font-size: 14px;
+  }
+  .discount {
+    font-size: 12px;
+  }
+  .price {
+    font-size: 12px;
+  }
+  .order__card2 {
+    width: 200px;
+  }
+  .header__order {
+    gap: 100px;
+  }
+  .order {
+    padding-inline: 10px;
+  }
+  .main__content {
+    max-width: 100%;
+  }
+  .popup__title{
+    font-size:16px;
+  }
+  .popup__subtitle{
+    font-size:14px;
+  }
+  .pay__meth{
+    font-size:16px;
+  }
+  .pay__card{
+    width:70px;
+  }
+  .pay__title{
+    font-size:10px;
+  }
+  .pay__icon{
+    font-size:16px;
+  }
+  .pay__ver{
+    font-size:12px;
+  }
+  .labels{
+    font-size:10px;
+  }
+  .pay__input{
+    padding:0px;
+    font-size:12px;
+  }
+  .selection{
+    padding:5px;
+    font-size:12px;
+  }
+  .pay__input2{
+    padding:0px;
+    font-size:14px;
+  }
+  .pay__btn{
+    padding:2px;
+    font-size:14px;
+  }
+  .titles{
+    line-height:16px;
+    padding-bottom:10px;
+    margin-bottom:10px;
+  }
+  .btns{
+    gap:20px;
+    flex-direction:column;
+  }
+  .pay__cards{
+    gap:20px
+}
+.pop__up__main{
+  left:50px;
+}
+.card__info{
+  gap:20px;
+}
+}
+@media (max-width: 640px) {
+  .order {
+    padding-inline: 10px;
+  }
+  .order__footer {
+    gap: 120px;
+  }
+  .main__content {
+    overflow: visible;
+    margin-right: 350px;
+    max-width: 420px;
+  }
+}
+@media (max-width: 520px) {
+  .pop__main3{
+    display:none;
+  }
+  .cancel__icon{
+    display:block;
+  }
+  .order {
+    display: none;
+  }
+  .pop__main4{
+    width:700px;
+  }
+  .thing2{
+    gap:40px;
+  }
+  .main__content {
+    max-width: 600px;
+    margin-right: 0px;
+  }
+  .show__order {
+    width: 100%;
+    text-align: center;
+  }
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+  .thing{
+    width:500px;
+  }
+  .thing__main{
+    width:100%;
+    overflow-x:hidden;
+  }
+}
+@media (max-width: 320px) {
+  .logo {
+    width: 20px;
+    height: 20px;
+  }
+  .food__icon {
+    font-size: 15px;
+  }
+  .icon__container {
+    padding-inline: 4px;
+    padding-block: 1px;
+    width:40px;
+    border-radius:5px;
+  }
+}
